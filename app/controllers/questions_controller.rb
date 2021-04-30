@@ -1,10 +1,10 @@
 class QuestionsController < ApplicationController
 
   def ask
-
   end
 
   def answer
+    raise
     @ask = params[:ask]
 
     if @ask == "I am going to work"
